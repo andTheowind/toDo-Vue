@@ -33,12 +33,15 @@ body {
     align-items: center;
     padding: 15px 55px;
 }
+
 .light-theme-header {
     background: rgba(219, 223, 255, 0.24);
 }
+
 .dark-theme-header {
     background: #33343C;
 }
+
 .logo {
 }
 
@@ -46,12 +49,15 @@ body {
     text-decoration: none;
     font-weight: 600;
 }
+
 .light-theme-logo a {
     color: #455377;
 }
+
 .dark-theme-logo a {
     color: #FFF;
 }
+
 .switch-theme {
     position: relative;
     display: flex;
@@ -100,7 +106,6 @@ body {
     transform: translateX(26px);
 }
 
-/* Rounded sliders */
 .slider.round {
     border-radius: 34px;
 }
@@ -117,9 +122,11 @@ body {
 h1 {
     font-weight: 500;
 }
+
 .light-theme-h1 {
     color: #455377;
 }
+
 .dark-theme-h1 {
     color: #fff;
 }
@@ -146,20 +153,19 @@ h1 {
     transition: .3s box-shadow;
     outline: none;
 }
+
 .form .light-input {
     color: #455377;
     background: #FFFFFF;
     border: 1px solid #B8C2DC;
 }
+
 .form .dark-input { 
     color: #D9D9E4;
     background: #323741;
     border: 1px solid #4C505C;
 }
 
-/* .form input:hover {
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.26);
-} */
 .form input::placeholder {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -176,9 +182,9 @@ h1 {
     cursor: pointer;
     text-align: center;
     border: none;
-    background:#1F5EFF;
+    background: #1F5EFF;
     outline: none;
-    padding: 7px 15.5px 10px 15.5px;
+    padding: 7px 16.5px 10px 16.5px;
 }
 
 .list {
