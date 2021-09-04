@@ -47,7 +47,7 @@
                 <button v-on:click="addNewTask">+</button>
             </div>
             <!-- /.form -->
-            <ul class="list">
+            <ul class="list" v-if="tasks.length !== 0">
                 <li class="card light-theme-card" 
                     :class="{'dark-theme-card': isActive}" 
                     v-for="(task, index) in tasks"
