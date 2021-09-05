@@ -8,9 +8,14 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/vue@next"></script>
     <!-- /.initial vue -->
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
 </head>
 
-<body>
+<body v-cloak>
     <div id="wrapper" 
          class="light-theme-body" 
          :class="{'dark-theme-body': isActive}"
