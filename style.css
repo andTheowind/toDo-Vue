@@ -214,6 +214,11 @@ h1 {
     background-color: #C9D5FFBF;
 }
 
+.dark-theme-card {
+    background-color: #323741;
+    color: #EEEEEE;
+}
+
 .closeTask {
     
 }
