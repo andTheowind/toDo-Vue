@@ -42,6 +42,7 @@ const body = {
         },
         deleteTask(index) {
             this.tasks.splice(index, 1)
+            localStorage.setItem('tasks', JSON.stringify(this.tasks))
         }
     }
 }
