@@ -10,6 +10,12 @@ const body = {
             tasks: []
         }
     },
+    async mounted(){
+        const data = await localStorage.getItem('tasks')
+        if(data) {
+            this.tasks = JSON.parse(data)
+        }
+    },
     methods: {
         inputCreateTaskHandler(event) {
             this.inputTask = event.target.value
@@ -21,6 +27,7 @@ const body = {
                 if (newTaskWithOutSpaces !== '') {  // проверка не состоит ли строка только из пробелов
                     this.tasks.unshift(this.inputTask)
                     this.inputTask = ''
+                    localStorage.setItem('tasks', JSON.stringify(this.tasks))
                 }
             }
         },
