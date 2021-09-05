@@ -216,7 +216,14 @@ h1 {
 
 .dark-theme-card {
     background-color: #323741;
+}
+
+.dark-theme-card .card-txt {
     color: #EEEEEE;
+}
+
+.dark-theme-card path {
+    stroke: 686868;    
 }
 
 .closeTask {
