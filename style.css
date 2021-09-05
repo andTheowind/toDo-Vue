@@ -222,8 +222,8 @@ h1 {
     color: #EEEEEE;
 }
 
-.dark-theme-card path {
-    stroke: 686868;    
+.dark-theme-card button svg path {
+    stroke: #686868;
 }
 
 .closeTask {
